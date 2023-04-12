@@ -1,4 +1,4 @@
-from ludopy import Game 
+from game import Game 
 import numpy as np
 import time
 import cv2
@@ -173,7 +173,7 @@ class case_score():
     #self.gameplay.save_video(name)
     def getKill_status(self):
                         
-        pass
+        pass    
 gp = Game(ghost_players=[1, 3])
 gameplay = case_score(gp)
 gameplay.roll()
